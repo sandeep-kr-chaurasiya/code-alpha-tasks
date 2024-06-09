@@ -1,0 +1,103 @@
+body {
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  height: 93vh;
+}
+.topheader {
+  width: 100%;
+  /* margin-bottom: 30px; */
+  padding: 10px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 15px 0px;
+  text-align: center;
+
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.heading {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: orange;
+}
+
+.calculator {
+  background-color: rgba(101, 101, 101, 0.352);
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.701);
+  border-radius: 25px;
+  border: 1px solid gray;
+  padding: 30px;
+  max-width: 400px;
+  margin: 50px auto;
+  backdrop-filter: blur(10px);
+}
+#display {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: right;
+  padding: 15px;
+  border: 1px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.758);
+  color: #ffffff;
+  border-radius: 15px; 
+  margin-bottom: 30px;
+  
+}
+.btn {
+  font-size: 2.0rem;
+  width: 70px;
+  height: 70px;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(251, 249, 249, 0.2);
+  margin: 5px;
+  color: #0000000c;
+}
+.btn-secondary {
+  background-color: #202020;
+  color: #fff;
+  box-shadow: 0 1px 2px 0 white;
+}
+
+.btn-primary {
+  background-color: orange;
+  color: #ffffff;
+  border: none;
+}
+.btn-success {
+  background-color: #939292;
+  color: #000000;
+  border: none;
+}
+.btn-danger {
+  background-color: orange;
+  color: #ffffff;
+  border: none;
+}
+.btn-warning {
+  background-color: orange;
+  color: #ffffff;
+  border: none;
+}
+
+@media (max-width: 576px) {
+  .btn {
+      font-size: 1.5rem;
+      width: 50px; 
+      height: 50px; 
+  }
+
+  #display {
+      font-size: 2rem; 
+  }
+}
